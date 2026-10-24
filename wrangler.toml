@@ -1,0 +1,23 @@
+name = "truyennha"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "truyennha-db"
+database_id = "b9d1f58d-4593-4214-a87c-8d9864950a68"
+migrations_dir = "./migrations"
+
+[vars]
+SITE_NAME = "TruyenNha"
+SITE_DESCRIPTION = "Nền tảng đọc truyện chữ tiếng Việt chất lượng cao"
+SITE_DOMAIN = "truyennha.id.vn"
+PRIMARY_COLOR = "#16a34a"
+ADSENSE_ENABLED = "false"
+ADSENSE_PUBLISHER_ID = ""
+ADSENSE_SLOT_TOP = ""
+ADSENSE_SLOT_BOTTOM = ""
+ADSENSE_SLOT_READER = ""
+COOKIE_DOMAIN = ""
+NODE_ENV = "development"
